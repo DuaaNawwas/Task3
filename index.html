@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Bootstrap exercise</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+			crossorigin="anonymous"
+		/>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body>
+		<header>
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+				<div class="container w-75">
+					<a class="navbar-brand text-secondary" href="#">Project Name</a>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarSupportedContent"
+						aria-controls="navbarSupportedContent"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+							<li class="nav-item">
+								<a class="nav-link active bg-black" aria-current="page" href="#"
+									>Home</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">About</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link">Contact</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle"
+									href="#"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+								>
+									Dropdown
+								</a>
+								<ul class="dropdown-menu">
+									<li><a class="dropdown-item" href="#">Action</a></li>
+									<li><a class="dropdown-item" href="#">Another action</a></li>
+									<li><hr class="dropdown-divider" /></li>
+									<li>
+										<a class="dropdown-item" href="#">Something else here</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+						<form class="d-flex" role="email">
+							<input
+								class="form-control-sm py-2 me-1 ms-4"
+								type="email"
+								placeholder="Email"
+								aria-label="Email"
+							/>
+						</form>
+						<form class="d-flex" role="password">
+							<input
+								class="form-control-sm py-2 me-1"
+								type="password"
+								placeholder="Password"
+								aria-label="password"
+							/>
+						</form>
+						<button
+							class="btn btn-light btn-sm py-2"
+							style="width: 80px"
+							type="submit"
+						>
+							Sign In
+						</button>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<main>
+			<div
+				class="card w-75 mt-4 text-bg-light mx-auto p-4 ps-5 pb-5"
+				style="border: none"
+			>
+				<div class="card-body">
+					<h1 class="card-title" style="font-size: 70px; font-weight: normal">
+						Hello, world!
+					</h1>
+					<p class="card-text fs-5 lh-sm ms-1">
+						This is a template for a simple marketing or informational website.
+						It includes a large callout called the hero unit and three
+						supporting pieces of content. Use it as a starting point to create
+						something more unique.
+					</p>
+					<a href="#" class="btn btn-primary p-3 fs-5">Learn more &raquo;</a>
+				</div>
+			</div>
+			<div class="container mt-3 mb-4">
+				<div class="row row-cols-1 row-cols-md-3 g-4 mx-5">
+					<div class="col">
+						<div class="card ms-" style="width: 24.5rem; border: none">
+							<div class="card-body">
+								<h2 class="card-title">Heading</h2>
+								<p class="card-text">
+									Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+									Nihil, consequuntur expedita sint nemo odio tenetur sequi
+									reiciendis iusto architecto dicta, omnis cum? Numquam,
+									voluptatem. Dolorum, laborum voluptatibus! Nisi, harum unde.
+								</p>
+								<a href="#" class="btn btn-secondary">View details &raquo;</a>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div
+							class="card"
+							style="width: 24.5rem; border: none; margin-left: -3%"
+						>
+							<div class="card-body">
+								<h2 class="card-title">Heading</h2>
+								<p class="card-text">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
+									neque est voluptate vel quia earum hic alias non voluptatibus!
+									Iusto perspiciatis libero aspernatur quaerat magni, eos quis
+									praesentium quibusdam dolor!
+								</p>
+								<a href="#" class="btn btn-secondary">View details &raquo;</a>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div
+							class="card"
+							style="width: 24.5rem; border: none; margin-left: -3%"
+						>
+							<div class="card-body">
+								<h2 class="card-title">Heading</h2>
+								<p class="card-text">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
+									neque est voluptate vel quia earum hic alias non voluptatibus!
+									Iusto perspiciatis libero aspernatur quaerat magni, eos quis
+									praesentium quibusdam dolor!
+								</p>
+								<a href="#" class="btn btn-secondary">View details &raquo;</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer>
+			<hr class="w-75 mx-auto my-3" />
+			<p style="margin-left: 12.4%">&copy; company 2013</p>
+		</footer>
+	</body>
+</html>
